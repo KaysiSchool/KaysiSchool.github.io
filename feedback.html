@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlit Knits - Feedback</title>
+    <meta name="description" content="Leave us some feedback on our products, services, or our website.">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Delius+Swash+Caps&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Moonlit Knits</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="cart.html">My Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="main_image" src="main_image_feedback2-min.jpg" alt="black and white mailboxes">
+        <div id="main_content">
+            <div class="container">
+                <form action="scripts/welcome.php" method="post">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="myName" placeholder="My name is...">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="My email...">
+
+                    <label for="message"></label>
+                    <textarea id="subject" name="message" placeholder="Write your message here.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>Contact us at: moonlitknits@gmail.com or at 720-555-7777</p>
+        <p id="social">Or follow us on Instagram:</p>
+        <a href="instagram.com"><img class="insta" src="Instagram_Glyph_White.png" alt="instagram logo"></a>
+    </footer>
+</body>
+
+</html>
